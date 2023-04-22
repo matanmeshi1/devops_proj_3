@@ -8,8 +8,8 @@
 
 
 ## Steps to run latest version:
-1.Configure env variables to access AWS :AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY . If running on jenkins, configure as secret text
-2.Run docker image:
+1. Configure env variables to access AWS :AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY . If running on jenkins, configure as secret text
+2. Run docker image:
 ```
 docker run --env $AWS_ACCESS_KEY_ID --env $AWS_SECRET_ACCESS_KEY matanmeshi1/devops_proj3:lts
 ```
