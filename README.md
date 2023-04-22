@@ -7,7 +7,7 @@
 4. Create a new pipeline and use the jenkins file in this repo to configure the pipeline
 
 
-## Steps to run the job to check if there are running ec2 instances:
+## Steps to run latest version:
 1.Configure env variables to access AWS :AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY . If running on jenkins, configure as secret text
 2.Run docker image:
 ```
