@@ -1,5 +1,8 @@
 pipeline {
 	agent any
+	triggers {
+        githubPush()
+    }
 	environment {
         DOCKERHUB_CREDS  = credentials('DOCKERHUB_CREDS')
     }
