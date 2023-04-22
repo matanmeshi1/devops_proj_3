@@ -9,7 +9,7 @@ pipeline {
 
     stage('SCM checkout') {
       steps {
-        git([url: 'https://github.com/matanmeshi1/devops_proj_3.git', branch: 'main'])
+        git url: 'https://github.com/matanmeshi1/devops_proj_3.git', branch: 'main'
 
       }
     }
